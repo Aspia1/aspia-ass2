@@ -297,3 +297,88 @@ footer hr {
 
     padding-bottom: 30px;
 }
+
+/* responsive for phone*/
+@media only screen and (max-width:788px) {
+
+
+    header {
+
+        flex-direction: column;
+        margin: 40px 20px;
+        align-items: center;
+
+
+    }
+
+    .half {
+        width: 70%;
+    }
+
+    .header {
+        padding: 28px 53px;
+        text-align: center;
+
+
+
+    }
+
+    .header-bannar {
+        align-self: center;
+        text-align: center;
+    }
+
+    .headTitle {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .header-article {
+        font-size: 14px;
+        width: 258px;
+        height: 40px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+    }
+
+
+    .header-bannar img {
+        width: 233px;
+        height: 245px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 0;
+
+    }
+
+    .options {
+        background-color: white;
+    }
+
+    .options .button {
+        border: 1px solid rgba(128, 128, 128, 0.52);
+
+    }
+
+    .contentBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contentBox .content {
+        border: 1px solid rgba(128, 128, 128, 0.319);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .footer-links a {
+        display: block;
+        padding-top: 9px;
+    }
+
+}
