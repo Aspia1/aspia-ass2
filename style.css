@@ -62,3 +62,71 @@ header {
     color: #ffffff;
     border-radius: 7px;
 }
+
+/* animation part  */
+@keyframes arrow-anime {
+    0% {
+
+
+        transform: translate(0px, 0px);
+    }
+
+    40% {
+
+
+        transform: translate(3px, 0px);
+
+    }
+
+    70% {
+
+
+        transform: translate(6px, 0px);
+    }
+
+
+    100% {
+
+
+        transform: translate(10px, 0px);
+
+    }
+}
+
+@keyframes back-anime {
+    0% {
+        background-color: rgb(239, 0, 0);
+    }
+
+    50% {
+
+
+        background-color: rgb(12, 56, 229);
+
+
+
+    }
+
+    70% {
+
+
+        background-color: hsl(94, 100%, 50%);
+
+    }
+
+
+    100% {
+
+        background-color: rgb(12, 56, 229);
+
+    }
+}
+
+header .links>i {
+    animation: arrow-anime 1s ease-in 2s infinite normal;
+}
+
+
+header .links {
+    animation: back-anime 3s ease-in 1s infinite normal;
+}
