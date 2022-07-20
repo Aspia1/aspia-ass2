@@ -9,18 +9,17 @@ commont things */
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 /* Heading with banner */
 header {
     display: flex;
-    background-color: #161616;
     border-radius: 30px;
-    margin: 50px 135px;
     color: #ffffff;
     padding-top: 20px;
-
+    margin: 50px 135px;
+    background-color: #161616;
 }
 
 .half {
@@ -129,4 +128,172 @@ header .links>i {
 
 header .links {
     animation: back-anime 3s ease-in 1s infinite normal;
+}
+
+/* -------
+container in the main part 
+--------- */
+.container {
+    display: flex;
+    margin: 130px 140px;
+    justify-content: center;
+
+}
+
+/*----------
+ options 
+ 
+ ---------*/
+.options {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0px 24px;
+    flex-basis: 312px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+}
+
+.button {
+    padding: 17px 39px;
+
+    background-color: white;
+    margin: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.cbutton {
+    background-color: #DD0000;
+
+}
+
+.cbutton a {
+    color: white;
+}
+
+/* ---contentBox -------*/
+
+.contentBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.content-btn {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card-article h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.duration {
+    color: #161616;
+    opacity: 70%;
+}
+
+.duration span {
+    padding-right: 30px;
+}
+
+.img-parts {
+    width: 252px;
+    height: 56.18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+
+
+.img-parts>div>img {
+    width: 93.04px;
+    height: 54.42px;
+}
+
+.vs {
+    width: 20px;
+    margin: 0 auto;
+}
+
+.matchPara {
+    text-align: center;
+}
+
+.Cell {
+    padding: 53px 30px;
+    border: 1px solid #E8E8E8;
+}
+
+.matchPara h4 {
+    font-size: 20px;
+}
+
+.matchPara p {
+    color: #4D4D4D;
+}
+
+.viewall {
+    text-align: center;
+    margin: 90px;
+    display: none;
+}
+
+
+/* footer 
+ */
+footer {
+    background-color: #161616;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.goal {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+footer hr {
+
+    width: 1310px;
+    opacity: 15%;
+
+}
+
+
+
+.footer-links a,
+.media a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    padding: 0px 25px;
+    font-weight: 500;
+}
+
+.media,
+.footer-links {
+
+    padding-bottom: 30px;
 }
