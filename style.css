@@ -11,3 +11,18 @@ commont things */
 body {
     margin: 0px;
 }
+
+/* Heading with banner */
+header {
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    margin: 50px 135px;
+    color: #ffffff;
+    padding-top: 20px;
+
+}
+
+.half {
+    width: 50%;
+}
