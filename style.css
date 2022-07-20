@@ -454,7 +454,12 @@ footer hr {
         padding: 10px;
     }
 
-    footer {
-        display: none;
+    .viewall {
+        display: block;
+    }
+
+    .footer-links {
+        padding-left: 70px;
+        padding-right: 70px;
     }
 }
